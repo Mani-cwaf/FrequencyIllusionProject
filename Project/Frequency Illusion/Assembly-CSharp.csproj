@@ -36,8 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Horror_House\Other\Rotate.cs" />
+     <Compile Include="Assets\Horror_House\Other\Door.cs" />
+     <Compile Include="Assets\Horror_House\Other\SimpleCameraController.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <None Include="Assets\Horror_House\Other\Leaves.shader" />
+     <None Include="Assets\Horror_House\Other\Decals.shader" />
+     <None Include="Assets\Horror_House\Other\Candle_Flame.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
